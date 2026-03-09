@@ -17,3 +17,4 @@ Spring Boot based Point of Sale (POS) backend system.
 
 ## Note
 This repository contains backend implementation only.
+
