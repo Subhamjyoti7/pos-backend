@@ -1,5 +1,5 @@
-# Use OpenJDK base image
-FROM openjdk:17-jdk-slim
+# Use OpenJDK image
+FROM eclipse-temurin:17-jdk
 
 # Set working directory
 WORKDIR /app
@@ -8,4 +8,4 @@ WORKDIR /app
 COPY target/*.jar app.jar
 
 # Run the application
-ENTRYPOINT ["java","-jar","/app/app.jar"]
+ENTRYPOINT ["java","-jar","app.jar"]
